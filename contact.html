@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    <link rel="stylesheet" href="css/email.css" />
+    
+    
+
+    <title>Contact</title>
+  </head>
+  <body class="contact">
+    <div class="container-fluid">
+      <header>
+        <nav class="nav nav-masthead justify-content-end col-md-12">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link ">About Me</a>
+          <a href="portfolio.html" class="nav-link ">Portfolio</a>
+          <a href="blog.html" class="nav-link ">Blog</a>
+          <a href="#" class="nav-link active">Contact</a>
+        </nav>
+      </header>
+      <main id="work">
+        <h1 class="lg-heading">
+          Reach
+          <span class="span-portfolio">Me</span>
+        </h1>
+      </main>
+      <div class="container">
+        <div class="wrapper animated bounceInLeft">
+          <div class="company-info">
+            <ul>
+              <li><i class="fa fa-road"></i> ***</li>
+              <li><i class="fa fa-phone"></i> (***) ***-**-**-**</li>
+              <li><i class="fa fa-envelope"></i> ***@gmail.com</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <form
+              class="gform pure-form pure-form-stacked"
+              method="POST"
+              data-email="example@email.net"
+              action="Here is your url to your google account. See article How to send email"
+            >
+              <!-- change the form action to your script url -->
+
+              <div class="form-elements">
+                <p>
+                  <label for="name">Name: </label>
+                  <input
+                    id="name"
+                    name="name"
+                    placeholder="What's your name"
+                  />
+                </p>
+                  <p>
+                    <label for="message">Message: </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="3"
+                    placeholder="Tell me what's on your mind..."
+                  ></textarea>
+                  </p>
+                <p>
+                  <label for="email"><em>Your</em> Email Address:</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    value=""
+                    required
+                    placeholder="your.name@email.com"
+                  />
+                  <span class="email-invalid" style="display:none">
+                    Must be a valid email address</span
+                  >
+                </p>
+                <button class="btn btn-block mt-3">Send</button>
+              </div>
+
+              <!-- Customise the Thankyou Message People See when they submit the form: -->
+              <div class="thankyou_message" style="display:none;">
+                <h2>
+                  <em>Thanks</em> for contacting me! I will get back to you
+                  soon!
+                </h2>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script
+      data-cfasync="false"
+      type="text/javascript"
+      src="form-submission-handler.js"
+    ></script>
+    <!-- END -->
+  </body>
+</html>
